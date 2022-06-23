@@ -1,6 +1,7 @@
 package com.programming.techie;
 
 public class Contact {
+	
     private String firstName;
     private String lastName;
     private String phoneNumber;
