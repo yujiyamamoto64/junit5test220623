@@ -5,7 +5,7 @@ public class Contact {
     private String lastName;
     private String phoneNumber;
 
-    public Contact(String firstName, String lastName, String phoneNumber) {
+	public Contact(String firstName, String lastName, String phoneNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
@@ -18,6 +18,10 @@ public class Contact {
     public String getLastName() {
         return lastName;
     }
+    
+    public String getPhoneNumber() {
+		return phoneNumber;
+	}
 
     public void validateFirstName() {
         if (this.firstName.isBlank())
